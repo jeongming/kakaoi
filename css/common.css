@@ -1,0 +1,44 @@
+
+/* 한국어 전용 웹폰트 */
+
+/* font-family: 'Noto Sans KR', sans-serif; font-weight: 100;300;400;500;700;900; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+
+body { font-family: 'Noto Sans KR', sans-serif; font-size: 16px; line-height: 1.5; font-weight: 400; letter-spacing: normal; color: rgb(29, 29, 31); -webkit-font-smoothing: antialiased; }
+
+
+div, ul, li { background-size: cover; background-position: center center; background-repeat: no-repeat; }
+
+/* Layout Style */
+button:hover { cursor: pointer; }
+
+/* text Style */
+
+h1 { font-family: 'Noto Sans KR', sans-serif; }
+h2 { font-family: 'Noto Sans KR', sans-serif; font-size: 56px; line-height: 66px; font-weight: 600; letter-spacing: normal; -webkit-font-smoothing: antialiased; }
+h3 { font-family: 'Noto Sans KR', sans-serif; font-size: 28px; line-height: 31px; font-weight: 400; letter-spacing: 0.1px; -webkit-font-smoothing: antialiased; }
+h4 { font-family: 'Noto Sans KR', sans-serif; font-size: 21px; line-height: 26px; letter-spacing: normal; -webkit-font-smoothing: antialiased; }
+h5 { font-family: 'Noto Sans KR', sans-serif; }
+h6 { font-family: 'Noto Sans KR', sans-serif; }
+
+p { font-family: 'Noto Sans KR', sans-serif; font-size: 17px; line-height: 27px; font-weight: 400; letter-spacing: normal; -webkit-font-smoothing: antialiased; }
+
+
+
+/*  */
+@media screen and (max-width: 1068px) {
+
+    h2 { font-size: 48px; line-height: 56px; }
+    h3 { font-size: 24px; }
+
+}
+
+
+@media screen and (max-width: 740px) {
+
+    h2 { font-size: 32px; line-height: 39px; }
+    h3 { font-size: 19px; line-height: 29px; }
+
+}
